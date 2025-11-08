@@ -2,7 +2,6 @@
   "name": "country-quiz-backend",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "npx tsx --env-file=.env --watch  src/index.ts",
     "build": "tsc --outDir build",

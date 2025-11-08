@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npx tsx --env-file=.env --watch  src/index.ts",
-    "build": "tsc --outDir build"
+    "dev": "npx tsx --env-file=.env --watch  src/index.ts",
+    "build": "tsc --outDir build",
+    "start": "node build/index.js"
   },
   "keywords": [],
   "author": "",
